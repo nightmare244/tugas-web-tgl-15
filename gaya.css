@@ -13,6 +13,12 @@ body{
     border: 5px solid black;
 
 }
+ .kotak span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header{
     background-color: gray;
     padding: 20px;
@@ -43,6 +49,14 @@ img{
     padding-left: 20px;
 
 }
+.dua3{
+      width: 300px;
+    border: 2px dashed #000;
+    float: left;
+    margin: 5px 5px 5px 5px;
+    padding-left: 20px;
+
+}
 .clearfix{
     clear: both;
 }
@@ -58,5 +72,5 @@ footer{
     width: 100%;
 }
 .Logo {
-    width: 350px;
+    width: 400px;
 }
